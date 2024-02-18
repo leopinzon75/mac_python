@@ -9,7 +9,7 @@
 # other arguments we want to accept
 
 class Employee:
-    def __init__(self, first, last, pay, a, b, c):# note on init: 
+    def __init__(self, first, last, pay, a, b, c):# note on init:self d and h can be out but no errors
         self.first = first
         self.last = last
         self.pay = pay
